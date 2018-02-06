@@ -1,3 +1,7 @@
+
+"""
+Stack data structure, which is basically LIFO
+"""
 class Stack:
     def __init__(self):
         self.items = []
@@ -17,6 +21,3 @@ class Stack:
     def size(self):
         return len(self.items)
 
-
-St = Stack()
-St.push()
